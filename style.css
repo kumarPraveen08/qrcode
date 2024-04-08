@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: tomato;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 28px;
+    padding: 20px;
+    min-width: 400px;
+    width: 550px;
+    border-left: 2px solid #414141;
+    border-right: 2px solid #414141;
+    border-top: 2px solid #414141;
+}
+
+input:focus {
+    outline: none;
+}
+
+#btn {
+    font-size: 28px;
+    padding: 20px;
+    width: 550px;
+    min-width: 400px;
+    border: none;
+    background-color: tomato;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+#qrcode {
+    margin-top: 20px;
+}
+
+img {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+p{
+    font-size: 18px;
+    color: #9d9d9d;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p.disable{
+    display: none;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #9d9d9d;
+    bottom: 0;
+    left: 50%;
+    margin-top: 5px;
+}
+
+@media only screen and (min-width : 320px) {
+    h1 {
+        font-size: 32px;
+    }
+    input {
+        font-size: 24px;
+        padding: 20px;
+        width: 400px;
+    }
+    #btn {
+        font-size: 24px;
+        padding: 20px;
+        width: 400px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    h1 {
+        font-size: 42px;
+    }
+    input {
+        font-size: 24px;
+        padding: 20px;
+        width: 400px;
+    }
+    #btn {
+        font-size: 24px;
+        padding: 20px;
+        width: 400px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    h1 {
+        font-size: 56px;
+    }
+    input {
+        font-size: 24px;
+        padding: 20px;
+        width: 500px;
+    }
+    #btn {
+        font-size: 24px;
+        padding: 20px;
+        width: 500px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    h1 {
+        font-size: 72px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
